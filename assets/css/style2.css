@@ -36,7 +36,8 @@ h3 {
     font-size: 25px;
     color: teal;
     font-weight: bold;
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
     border: 5px solid teal;
     margin: 15px;
 }
@@ -59,7 +60,13 @@ p {
     padding: 15px;
 }
 
-.container {
+#forms {
+    color: teal;
+    margin: 15px;
+    border: 5px solid teal;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
 
 }
 
