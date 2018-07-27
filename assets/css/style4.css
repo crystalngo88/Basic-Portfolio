@@ -33,6 +33,7 @@ h1 {
 
 #aboutme {
     padding-left: 15px;
+    padding-top: 10px;
 }
 
 body {
@@ -53,11 +54,75 @@ section {
     border: 3px solid #dddddd;
 }
 
+.porfolio {
+    font-size: 20px;
+    color: #777777;
+    text-align: center;
+}
+
+#forms {
+    clear:both;
+    width: 960px;
+    background-color:#ffffff;
+    box-align: center;
+    margin: 15px auto;
+    border: 3px solid #dddddd;
+    padding: 15px;
+}
+
 img {
     float:left;
     border: 1px solid #4aaaa5;
     margin: 15px;
 }
+
+.box-set {
+    position: relative;
+    height: 400px;
+    background-color: #ffffff;
+    margin: 15px auto;
+    border: 3px solid #dddddd;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .box-1 {
+    width: 150px;
+    height: 150px;
+    background:#4aaaa5;
+    border: 3px solid #dddddd;
+    margin: 5px;
+    float: left;
+  }
+
+  .box-2 {
+    width: 150px;
+    height: 150px;
+    background:#4aaaa5;
+    border: 3px solid #dddddd;
+    margin: 5px;
+    float: left;
+  }
+
+  .box-3 {
+    width: 150px;
+    height: 150px;
+    background: #4aaaa5;
+    border: 3px solid #dddddd;
+    margin: 5px;
+    float: left;
+  }
+
+  .box-4 {
+    width: 150px;
+    height: 150px;
+    background: #4aaaa5;
+    border: 3px solid #dddddd;
+    margin: 5px;
+    float: left;
+  }
 
 footer {
     clear: both;
