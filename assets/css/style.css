@@ -1,76 +1,88 @@
 header {
-    color: teal;
+    color: #4aaaa5;
     font-weight: bold;
-    background: lightgrey;
+    background: #ffffff;
     font-size: 30px;
     padding: 20px;
-    border: 5px solid teal;
+    /* border: 5px solid #cccccc; */
     margin: 15px;
-
 }
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: darkgrey;
-    /* border: 15px solid purple; */
+    color: #777777;
+    background-color: #ffffff;
+    width: 960px;
+    box-align: center;
+    margin: 0 auto;
 }
 
-/* #header {
-    background: lime;
-   
-} */
+.test {
+    width: 960px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-align: center;
+    border: 3px solid #bbbbbb;
+}
 
 #links {
-    /* border: 5px solid black; */
+    float: right;
+    border: 5px solid red;
     text-align: right;
     font-weight: normal;
     font-size: 20px;
     margin-top: 10px;
     line-height: 1.25;
+    width: 200px;
+
     
+}
+
+.name {
+    padding: 20px;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
 h3 {
     font-size: 25px;
-    color: teal;
+    color: #4aaaa5;
     font-weight: bold;
     padding: 20px;
-    border: 5px solid teal;
-    margin: 15px;
-}
-
-nav {
-
+    border: 3px solid #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 img {
     float:left;
-    margin: 15px;
-    border: 5px solid teal;
-}
-
-p {
-    margin: 15px;
-    border: 5px solid teal;
-    line-height: 1.25;
-    height: 200px;
-    padding: 15px;
-}
+    border: 3px solid #4aaaa5;
+    margin-right: 15px;
+} 
 
 .container {
-
+    width: 960px;
+    height: 200px;
+    background-color: ffffff;
+    margin: 15px auto;
+    box-align: center;
+    border: 3px solid #dddddd;
 }
 
 footer {
     clear: both;
-    color: teal;
-    font-size: 20px;
+    width: 960px;
+    height: 200px;
+    background-color: #666666;
+    margin: 15px auto;
+    box-align: center;
+    border: 3px solid #4aaaa5;
     text-align: center;
-    padding: 15px;
-    margin: 15px;
-    font-weight: bold;
-    background: lightgrey;
-    border: 5px solid teal;
+    color: #777777;
 }

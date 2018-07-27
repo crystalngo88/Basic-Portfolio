@@ -6,7 +6,6 @@ header {
     padding: 20px;
     border: 5px solid teal;
     margin: 15px;
-
 }
 
 body {
@@ -15,11 +14,6 @@ body {
     color: darkgrey;
     /* border: 15px solid purple; */
 }
-
-/* #header {
-    background: lime;
-   
-} */
 
 #links {
     /* border: 5px solid black; */
@@ -31,6 +25,18 @@ body {
     
 }
 
+a:hover {
+    background: white;
+    color: teal;
+}
+
+a:visited {
+    color: teal;
+}
+
+a:active {
+    color: red;
+}
 
 h3 {
     font-size: 25px;
@@ -42,8 +48,9 @@ h3 {
     margin: 15px;
 }
 
-nav {
-
+.nav-item {
+    border: 3px solid teal;
+    margin: 2px;
 }
 
 img {
